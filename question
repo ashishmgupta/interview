@@ -1,0 +1,20 @@
+Here is a csv file (api.csv)
+
+id,api_url
+1,https://api1.example.com
+2,https://api2.example.com
+3,https://api3.example.com
+4,https://api4.example.com
+5,https://api5.example.com
+
+
+Call a function on each api_url which will get the result of GET request on the api and add the content to a new column named status.
+
+Expected result:
+==========================
+id,api_url,status
+1,https://api1.example.com,200
+2,https://api2.example.com,404
+3,https://api3.example.com,500
+4,https://api4.example.com,200
+5,https://api5.example.com,200
